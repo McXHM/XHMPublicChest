@@ -1,0 +1,26 @@
+name: XHMPublicChest
+version: '1.0-SNAPSHOT'
+main: me.mrxhm.xhmpublicchest.XHMPublicChest
+api-version: 1.19
+commands:
+  xhmpublicchest:
+    aliases:
+      - xpc
+      - chest
+      - publicchest
+      - pchest
+permissions:
+  XHMPlugin.xhmpublicchest.*:
+    children:
+      XHMPlugin.xhmpublicchest.create: true
+      XHMPlugin.xhmpublicchest.open: true
+      XHMPlugin.xhmpublicchest.remove: true
+      XHMPlugin.xhmpublicchest.list: true
+  XHMPlugin.xhmpublicchest.create:
+    default: true
+  XHMPlugin.xhmpublicchest.open:
+    default: true
+  XHMPlugin.xhmpublicchest.remove:
+    default: op
+  XHMPlugin.xhmpublicchest.list:
+    default: op

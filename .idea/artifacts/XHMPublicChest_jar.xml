@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="XHMPublicChest:jar">
+    <output-path>$PROJECT_DIR$/../../测试服务端/1.19.2/server/plugins</output-path>
+    <root id="archive" name="XHMPublicChest.jar">
+      <element id="module-output" name="XHMPublicChest" />
+    </root>
+  </artifact>
+</component>
